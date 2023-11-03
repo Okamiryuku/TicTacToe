@@ -1,4 +1,4 @@
-
+from art import logo
 
 # Initialize the board
 board = [' ' for _ in range(9)]
@@ -45,6 +45,10 @@ def tic_tac_toe():
                 print("Invalid move. Try again.")
         except ValueError:
             print("Invalid input. Enter a number from 1 to 9.")
+
+
+# Prints the Logo
+print(logo)
 
 # Start the game
 tic_tac_toe()
